@@ -1,0 +1,2 @@
+# teyvat-adventures-mod
+test
