@@ -1,0 +1,74 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:pufferfish"
+    },
+    "title": {
+      "text": "吃水煮黑背鱸吃中毒了？"
+    },
+    "description": {
+      "text": "不知道啊？吃水煮黑背鱸吃中毒了？"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ate_raw_cod": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        }
+      }
+    },
+    "ate_raw_salmon": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        }
+      }
+    },
+    "ate_tropical_fish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ]
+        }
+      }
+    },
+    "ate_pufferfish": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ate_raw_cod"
+    ],
+    [
+      "ate_raw_salmon"
+    ],
+    [
+      "ate_tropical_fish"
+    ],
+    [
+      "ate_pufferfish"
+    ]
+  ]
+}

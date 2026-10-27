@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "teyvat_adventures:item/elemental_resonance_geo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": true,
+  "values": [
+    "teyvat_adventures:elemental_resonance_anemo",
+    "teyvat_adventures:elemental_resonance_geo",
+    "teyvat_adventures:elemental_resonance_electro",
+    "teyvat_adventures:elemental_resonance_dendro",
+    "teyvat_adventures:elemental_resonance_hydro",
+    "teyvat_adventures:elemental_resonance_pyro",
+    "teyvat_adventures:elemental_resonance_cryo"
+  ]
+}

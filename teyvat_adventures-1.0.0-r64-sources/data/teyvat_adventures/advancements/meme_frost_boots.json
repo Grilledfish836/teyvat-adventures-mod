@@ -1,0 +1,41 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "text": "凝冰渡海真君"
+    },
+    "description": {
+      "text": "凍結吧！老實點！這個如何！"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wearing_frost_walker_boots": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "feet": {
+              "enchantments": [
+                {
+                  "enchantment": "minecraft:frost_walker"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wearing_frost_walker_boots"
+    ]
+  ]
+}

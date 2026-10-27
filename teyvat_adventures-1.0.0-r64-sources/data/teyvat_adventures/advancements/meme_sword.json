@@ -1,0 +1,70 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_sword"
+    },
+    "title": {
+      "text": "「無鋒劍」"
+    },
+    "description": {
+      "text": "少年人的夢想、踏上旅途的興奮—— 如果這兩種珍貴的特質還不夠鋒利，那就用勇氣補足吧。"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_wooden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_sword"
+      }
+    },
+    "craft_stone_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_sword"
+      }
+    },
+    "craft_iron_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_sword"
+      }
+    },
+    "craft_golden_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_sword"
+      }
+    },
+    "craft_diamond_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_sword"
+      }
+    },
+    "craft_netherite_sword": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_sword_smithing"
+      }
+    },
+    "craft_any_sword": {
+      "trigger": "teyvat_adventures:meme_first_sword"
+    }
+  },
+  "requirements": [
+    [
+      "craft_wooden_sword",
+      "craft_stone_sword",
+      "craft_iron_sword",
+      "craft_golden_sword",
+      "craft_diamond_sword",
+      "craft_netherite_sword",
+      "craft_any_sword"
+    ]
+  ]
+}

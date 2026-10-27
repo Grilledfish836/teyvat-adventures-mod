@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "下次還填非常簡單"
+    },
+    "description": {
+      "text": "孩子們我不是123456"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "last_heart_kill": {
+      "trigger": "teyvat_adventures:meme_half_heart_kill"
+    }
+  },
+  "requirements": [
+    [
+      "last_heart_kill"
+    ]
+  ]
+}

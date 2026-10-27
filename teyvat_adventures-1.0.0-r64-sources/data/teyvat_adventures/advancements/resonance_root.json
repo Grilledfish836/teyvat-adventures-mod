@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "teyvat_adventures:world_beyond_descender"
+    },
+    "title": {
+      "translate": "advancements.teyvat_adventures.resonance_root.title"
+    },
+    "description": {
+      "translate": "advancements.teyvat_adventures.resonance_root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "entered_world": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "entered_world"
+    ]
+  ]
+}

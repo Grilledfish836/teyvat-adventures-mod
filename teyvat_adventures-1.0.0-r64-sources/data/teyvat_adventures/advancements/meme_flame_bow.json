@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "text": "我曾經，可是玩百里守約的"
+    },
+    "description": {
+      "text": "高額的1點火傷"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flame_bow_hit": {
+      "trigger": "teyvat_adventures:meme_flame_bow_hit"
+    }
+  },
+  "requirements": [
+    [
+      "flame_bow_hit"
+    ]
+  ]
+}

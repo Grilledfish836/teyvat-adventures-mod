@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "text": "前面的區域，以後再來探索吧"
+    },
+    "description": {
+      "text": "騙你的以後也探索不了"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "touched_border": {
+      "trigger": "teyvat_adventures:meme_world_border_touched"
+    }
+  },
+  "requirements": [
+    [
+      "touched_border"
+    ]
+  ]
+}

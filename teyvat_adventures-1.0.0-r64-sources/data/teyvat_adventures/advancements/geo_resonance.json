@@ -1,0 +1,42 @@
+{
+  "parent": "teyvat_adventures:resonance_root",
+  "display": {
+    "icon": {
+      "item": "teyvat_adventures:elemental_resonance_geo"
+    },
+    "title": {
+      "translate": "advancements.teyvat_adventures.geo_resonance.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.teyvat_adventures.geo_resonance.description.1",
+        "color": "gold"
+      },
+      {
+        "text": "\n",
+        "color": "white"
+      },
+      {
+        "translate": "advancements.teyvat_adventures.geo_resonance.description.2",
+        "color": "white"
+      }
+    ],
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "resonance": {
+      "trigger": "teyvat_adventures:resonance",
+      "conditions": {
+        "element": "geo"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "resonance"
+    ]
+  ]
+}

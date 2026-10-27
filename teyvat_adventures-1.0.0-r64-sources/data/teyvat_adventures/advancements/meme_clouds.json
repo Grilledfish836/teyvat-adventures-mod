@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "title": {
+      "text": "欸？雲朵！"
+    },
+    "description": {
+      "text": "噠噠噠噠噠~好想玩原神~"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sky_gaze_10s": {
+      "trigger": "teyvat_adventures:meme_sky_gaze"
+    }
+  },
+  "requirements": [
+    [
+      "sky_gaze_10s"
+    ]
+  ]
+}

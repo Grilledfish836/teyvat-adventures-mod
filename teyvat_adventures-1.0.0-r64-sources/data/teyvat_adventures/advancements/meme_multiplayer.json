@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": {
+      "text": "原來，你也玩麥塊"
+    },
+    "description": {
+      "text": "冒險等級16級"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "two_players_online": {
+      "trigger": "teyvat_adventures:meme_players_online"
+    }
+  },
+  "requirements": [
+    [
+      "two_players_online"
+    ]
+  ]
+}

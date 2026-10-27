@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:candle"
+    },
+    "title": {
+      "text": "怕黑嗎？"
+    },
+    "description": {
+      "text": "嚇哭了神祕怕黑男環境都來MC了"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "darkness_7s": {
+      "trigger": "teyvat_adventures:meme_darkness"
+    }
+  },
+  "requirements": [
+    [
+      "darkness_7s"
+    ]
+  ]
+}

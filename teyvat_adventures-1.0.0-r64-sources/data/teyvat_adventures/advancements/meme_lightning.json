@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
+    },
+    "title": {
+      "text": "！！愛上雷神！！"
+    },
+    "description": {
+      "text": "卑鄙我去吧！瞬間就-"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "struck": {
+      "trigger": "teyvat_adventures:meme_struck_by_lightning"
+    }
+  },
+  "requirements": [
+    [
+      "struck"
+    ]
+  ]
+}

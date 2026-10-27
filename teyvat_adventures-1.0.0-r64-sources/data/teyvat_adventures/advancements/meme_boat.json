@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_boat"
+    },
+    "title": {
+      "text": "乘風破浪真君"
+    },
+    "description": {
+      "text": "聽不懂，我玩芙芙的。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "boat_ride_25s": {
+      "trigger": "teyvat_adventures:meme_boat_ride"
+    }
+  },
+  "requirements": [
+    [
+      "boat_ride_25s"
+    ]
+  ]
+}

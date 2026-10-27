@@ -1,0 +1,28 @@
+{
+  "parent": "teyvat_adventures:meme_root",
+  "display": {
+    "icon": {
+      "item": "minecraft:bread"
+    },
+    "title": {
+      "text": "異世相遇，盡享美味！"
+    },
+    "description": {
+      "text": "講出來"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "food_gift": {
+      "trigger": "teyvat_adventures:meme_food_gift"
+    }
+  },
+  "requirements": [
+    [
+      "food_gift"
+    ]
+  ]
+}
